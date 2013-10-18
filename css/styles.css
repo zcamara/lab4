@@ -7,4 +7,13 @@ the browser default styles before applying their own */
 	width: 100px;
 	margin-right: 1em;
 	margin-bottom: 1em;
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+	.carousel {
+		display: none;
+	}
+
 }
